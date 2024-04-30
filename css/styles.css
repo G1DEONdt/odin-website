@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 15vw;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    gap: 128px;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    gap: 8px;
+}
+
+.banner-title h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.banner-title p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.banner-title button {
+    align-self: flex-start;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 12px 32px;
+}
+
+.content-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-container {
+    display: flex;
+    gap: 24px;
+}
+
+.information-card {
+    width: 200px;
+}
+
+.information-card img {
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 8px;
+}
+
+.information-card p {
+    text-align: center;
+    color: gray;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 256px 0;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 820px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.modal { 
+    display: flex;
+    justify-content: center;
+    margin: 128px 0;
+}
+
+.modal-bg {
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 48px 86px;
+    display: flex;
+    gap: 64px;
+}
+
+.modal-text h3{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.modal-bg button {
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: white;
+}
+
+footer {
+    padding: 24px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
